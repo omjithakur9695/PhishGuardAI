@@ -1,0 +1,96 @@
+{
+  "dataset_sample_size": 20000,
+  "train_samples": 15000,
+  "test_samples": 5000,
+  "metrics_table": [
+    {
+      "model_name": "SGDClassifier (Active Model)",
+      "accuracy": 0.9524,
+      "precision": 0.9891,
+      "recall": 0.8276,
+      "f1_score": 0.9012,
+      "roc_auc": 0.9931,
+      "train_time_sec": 0.665,
+      "latency_ms": 0.001,
+      "is_active": true
+    },
+    {
+      "model_name": "Logistic Regression",
+      "accuracy": 0.9554,
+      "precision": 0.9883,
+      "recall": 0.8398,
+      "f1_score": 0.908,
+      "roc_auc": 0.9942,
+      "train_time_sec": 0.842,
+      "latency_ms": 0.001,
+      "is_active": false
+    },
+    {
+      "model_name": "Multinomial Naive Bayes",
+      "accuracy": 0.9392,
+      "precision": 0.9557,
+      "recall": 0.8055,
+      "f1_score": 0.8742,
+      "roc_auc": 0.9832,
+      "train_time_sec": 0.081,
+      "latency_ms": 0.006,
+      "is_active": false
+    },
+    {
+      "model_name": "Decision Tree",
+      "accuracy": 0.9824,
+      "precision": 0.9553,
+      "recall": 0.9786,
+      "f1_score": 0.9668,
+      "roc_auc": 0.9931,
+      "train_time_sec": 10.313,
+      "latency_ms": 0.003,
+      "is_active": false
+    },
+    {
+      "model_name": "Random Forest (Ensemble)",
+      "accuracy": 0.9488,
+      "precision": 0.9862,
+      "recall": 0.8162,
+      "f1_score": 0.8932,
+      "roc_auc": 0.9912,
+      "train_time_sec": 1.264,
+      "latency_ms": 0.032,
+      "is_active": false
+    }
+  ],
+  "confusion_matrices": {
+    "SGDClassifier (Active Model)": {
+      "tn": 3677,
+      "fp": 12,
+      "fn": 226,
+      "tp": 1085
+    },
+    "Logistic Regression": {
+      "tn": 3676,
+      "fp": 13,
+      "fn": 210,
+      "tp": 1101
+    },
+    "Multinomial Naive Bayes": {
+      "tn": 3640,
+      "fp": 49,
+      "fn": 255,
+      "tp": 1056
+    },
+    "Decision Tree": {
+      "tn": 3629,
+      "fp": 60,
+      "fn": 28,
+      "tp": 1283
+    },
+    "Random Forest (Ensemble)": {
+      "tn": 3674,
+      "fp": 15,
+      "fn": 241,
+      "tp": 1070
+    }
+  },
+  "features_extracted": 25000,
+  "evaluation_timestamp": "2026-10-28 22:09:00"
+}
