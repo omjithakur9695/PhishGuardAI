@@ -75,7 +75,6 @@ PhishGuardAI project/
 ├── train_model.py              # ML model trainer for character n-gram SGD pipeline
 ├── phish_guard_url_model.joblib# Serialized active machine learning model (~6.8 MB)
 ├── phish_guard_cleaned.csv     # Training dataset (>500,000 URLs)
-├── phishguard_audit.db         # Persistent SQLite scan history database
 ├── PROJECT_REPORT.md           # 500+ line academic Major Project Report with IEEE references
 ├── RUN_GUIDE.md                # Viva presentation script & sample demo inputs
 ├── templates/
